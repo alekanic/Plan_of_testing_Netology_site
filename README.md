@@ -55,3 +55,4 @@
 2. Gradle или Maven
 3. Selenide
 4. JUnit - для написания тестов
+5. Git
