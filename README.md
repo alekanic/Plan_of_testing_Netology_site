@@ -2,7 +2,7 @@
 
 ## 1 - Перечень автоматизируемых сценариев
 
-### Сценарий №1 - открываем страницу [///](https://netology.ru/programs/qa) через кнопку "Каталог курсов"
+### Сценарий №1 - открываем [страницу "Тестировщик ПО"](https://netology.ru/programs/qa) через кнопку "Каталог курсов"
 <img width="1424" alt="image" src="https://github.com/alekanic/Plan_of_testing_Netology_site/assets/127054802/db945007-8a66-414d-a4aa-1d1ddba2143f">
 
 1. Открываем главную страницу Нетологии - https://netology.ru
@@ -12,7 +12,7 @@
 5. Переходим по гиперссылке «Тестировщик ПО»
 6. Открывается страница с описанием курса "Тестировщик ПО" - https://netology.ru/programs/qa
 
-### Сценарий №2 - открываем страницу [///](https://netology.ru/programs/qa) через раздел "Направления обучения"
+### Сценарий №2 - открываем [страницу "Тестировщик ПО"](https://netology.ru/programs/qa) через раздел "Направления обучения"
 <img width="1333" alt="image" src="https://github.com/alekanic/Plan_of_testing_Netology_site/assets/127054802/f1b98858-b5d2-4099-856d-c214101c0786">
 
 1. Открываем главную страницу Нетологии - https://netology.ru
@@ -20,3 +20,31 @@
 3. Открывается страница со списком программ в разделе "Программирование" - https://netology.ru/development
 5. Переходим по гиперссылке «Тестировщик ПО»
 6. Открывается страница с описанием курса "Тестировщик ПО" - https://netology.ru/programs/qa
+
+### Сценарий №3 - открываем [страницу "Тестировщик ПО"](https://netology.ru/programs/qa) через раздел "Каталог курсов" внизу страницы
+<img width="1254" alt="image" src="https://github.com/alekanic/Plan_of_testing_Netology_site/assets/127054802/3fc14ca6-420c-4f98-8b50-f037d0207c78">
+
+
+1. Открываем главную страницу Нетологии - https://netology.ru
+2. Кликаем по кнопке «Каталог курсов» внизу страницы.
+3. Открывается страница со списком всех программ Нетологии - https://netology.ru/navigation
+4. Открывается страница со списком программ в разделе "Программирование" - https://netology.ru/development
+5. Переходим по гиперссылке «Тестировщик ПО»
+6. Открывается страница с описанием курса "Тестировщик ПО" - https://netology.ru/programs/qa
+
+### Сценарий №4 - на [странице](https://netology.ru/programs/qa) проверяем успешную отправку данных для записи на курс
+<img width="1285" alt="image" src="https://github.com/alekanic/Plan_of_testing_Netology_site/assets/127054802/e36bf3f4-7bf6-47f8-bd75-394fd59bbfa5">
+
+1. Открываем страницу "Тестировщик ПО" - https://netology.ru/programs/qa?recommended_by=instant_search#/
+2. Вводим валидное имя в поле "Имя"
+3. Вводим валидный номер телефона в поле "Номер телефона"
+4. Вводим валидный адрес электронной почты в поле "Электронный адрес"
+5. Нажимаем на кнопку "Записаться"
+
+### Сценарий №5 - [странице](https://netology.ru/programs/qa) проверяем отправку пустой формы для записи на курс
+<img width="1225" alt="image" src="https://github.com/alekanic/Plan_of_testing_Netology_site/assets/127054802/e855808d-5f03-47af-a194-f58d60c85d27">
+
+1. Открываем страницу "Тестировщик ПО" - https://netology.ru/programs/qa?recommended_by=instant_search#/
+2. Оставляем поля "Имя", "Номер телефона" и "Электронный адрес" пустыми
+5. Нажимаем на кнопку "Записаться"
+6. Поля должны выделится красным, появляется подпись "Обязательное поле" под каждым полем.
